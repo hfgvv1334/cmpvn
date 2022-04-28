@@ -1,7 +1,11 @@
 body{
-    background-image:url(https://hfgvv1334.github.io/cmpvnsv/setup/img/hinhnen1.jpg);
+    background-image:url(https://raw.githubusercontent.com/hfgvv1334/cmpvn/main/setup/img/hinhnen1.jpg);
     background-repeat: no-repeat;
     border:0;
+    margin: 0;
+    padding: 0;
+}
+*{
     margin: 0;
     padding: 0;
 }
@@ -25,3 +29,128 @@ body{
 width: 1px;
 height: 1%;
 }
+.xg:link{
+color: #08fde9;
+text-decoration: none;
+}
+.xg:visited{
+    color: #08fde9;
+    text-decoration: none; 
+
+}
+/*menu*/
+#tabmenu{
+   margin-left: 4%;
+   margin-top: 1%;
+   width: 100%;
+    
+
+}
+#tabmenu ul li {
+    background-image: linear-gradient(180deg,#20abc4,#24056d);
+    border-color: #030a75;
+    border-radius: 10px;
+    border-style:solid;
+    text-align: center;
+    list-style-type: none;
+    color: #130c75;
+    display: inline-table;
+    font-size: 150%;
+    padding: 1%;
+    
+    
+    width: 20%;
+    height: 4%;
+    line-height: 40px;
+    
+}
+#tabmenu ul li a {
+    color: #6fffbc;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(180deg,#20abc4,#130081);
+    border-color: #050538;
+    border-radius: 10px;
+    border-style:solid;
+    text-align: center;
+    list-style-type: none;
+    width: 90%;
+    height: 90%;
+    
+   
+    display: inline-table;
+    font-size: 20px;
+    padding: 1%;
+}
+#tabmenu ul :hover{
+    background-image: linear-gradient(0deg,#07fff3,#1203bb);
+    color: #5fd44f;
+    font-size: 25px;
+}
+/*note*/
+.note{
+    background-image: linear-gradient(180deg,#31313f,#706e8d);
+    width: 90%;
+    height: 92%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #111114;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+/*name*/
+.name{
+    color: #4cdd12;
+    width: 30%;
+    background-image: linear-gradient(180deg,#31313f,#474653);
+    border-color: #202525;
+    border-style:outset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.2%;
+    margin-left: 35%;
+
+}
+.name2{
+    color: #12dd60;
+    width: 25%;
+    background-image: linear-gradient(180deg,#4e4e63,#5d5c6b);
+    border-color: #2a3a3a;
+    border-style:outset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 1%; 
+}
+
+/*noidung*/
+.noidung {
+    color: #000000;
+    font-size: 150%;
+    width: 95%;
+    height: 18%;
+    background-image: linear-gradient(180deg,#c0c0c0,#414141);
+    border-color: #031535;
+    border-style:outset;
+    display: flex;
+    text-decoration: none;
+   
+    flex-direction: column;
+   
+    
+}
+.noidung ol li {
+   margin-left: 3%;
+    margin-bottom: 1%;
+}
+.noidung ul li {
+    margin-left: 3%;
+     margin-bottom: 1%;
+ }
